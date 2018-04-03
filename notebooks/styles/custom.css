@@ -1,0 +1,25 @@
+div.warn {    
+    background-color: #fcf2f2;
+    border-color: #dFb5b4;
+    border-left: 5px solid #dfb5b4;
+    padding: 0.5em;
+    }
+
+div.tipp {    
+    background-color: #DCEDC8;
+    border-color: #8BC34A;
+    border-left: 5px solid #33691E;
+    padding: 0.5em;
+    }
+
+div.info {    
+        background-color: #C5CAE9;
+        border-color: #9FA8DA;
+        border-left: 5px solid #7986CB;
+        padding: 0.5em;
+        }
+
+div.info::before {    
+    content:"\e123";
+    color: red;
+}
